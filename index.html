@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <link rel="stylesheet" href="portfolio.css">
+
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <div class="brand"><a href="#">B-<span>Growth</span></a></div>
+                <ul>
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="./pages/about.html">About</a></li>
+                    <li><a href="./pages/portfolio.html">Porfolio</a></li>
+                    <li><a href="./pages/clients.html">Our Client</a></li>
+                    <li><a href="./pages/team.html">Our Team</a></li>
+                    <li><a href="./pages/contact.html">Contact Us</a></li>
+                    <a href="" id="btn-transparent">Get Started</a>
+                </ul>
+            </div>
+
+            <div class="show-case">
+                <div class="right-sec">
+                    <img id="hero" src="./pictures/hero-img.png" alt="main">
+                </div>
+                <div class="left-sec">
+                    <h1>Better Solutions For Your Business</h1>
+                    <p>We are team of talented designers or front-end developers making websites with Html & Css, JavaScript, Bootstrap, React.js</p>
+                    <div class="flex">
+                        <a href="" class="btn" id="btn">Get Started</a>
+                        <a href="" class="btn-watch">
+                            <i class="fa fa-play-circle">
+                        </i> Watch Video</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="about">
+        <h2>About Us</h2>
+        <div class="about-flex">
+            <div class="paragraph">
+                <h3>Paragraph</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, corrupti voluptas obcaecati ea in enim maiores similique harum magnam commodi, quam facilis esse at odio ratione quae. Molestias culpa ipsa consectetur? Odio error magni ad dolor rem necessitatibus odit fugit.</p>
+                <a href="" id="btn">Read More</a>
+            </div>
+            <div class="hero-section">
+                <img src="./pictures/why-us.png" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section class="services">
+        <h2>Our Porfolio</h2>
+
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
+        centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false" loop="true">
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-2.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-3.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-4.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-7.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-8.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-9.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-details-1.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-details-2.jpg" alt="">
+            </swiper-slide>
+            <swiper-slide>
+                <img src="./pictures/portfolio/portfolio-details-3.jpg" alt="">
+            </swiper-slide>
+      </swiper-container>
+        
+    </section>
+
+    <section class="clients">
+        <h2>Our Clients</h2>
+        <div class="flex-client">
+            <div class="client">
+                <img src="./pictures/clients/client-1.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./pictures/clients/client-2.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./pictures/clients/client-3.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./pictures/clients/client-4.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./pictures/clients/client-5.png" alt="">
+            </div>
+            <div class="client">
+                <img src="./pictures/clients/client-6.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="our-team">
+        <h2>Our Team</h2>
+        <div class="team">
+            <div class="user">
+                <img src="./pictures//team/team-1.jpg" alt="">
+                <h3>Alex Lee</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="user">
+                <img src="./pictures//team/team-2.jpg" alt="">
+                <h3>Adriana Lima</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="user">
+                <img src="./pictures//team/team-3.jpg" alt="">
+                <h3>Cristopher nolan</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="user">
+                <img src="./pictures//team/team-4.jpg" alt="">
+                <h3>Bella Ramsey</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <form class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo est, repudiandae doloribus illum ex doloremque?</p>
+            <div action="">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="E-mail">
+                <input type="text" placeholder="Password">
+                <a href="" class="btn">Submit</a>
+                <!-- <textarea type="textarea" cols="30" rows="10" placeholder="enter desc"> -->
+            </div>
+        </form>
+    </section>
+
+    <section class="footer">
+        <div class="inner">
+            <div class="brand"><a href="#">B-<span>Growth</span></a></div>
+            <p>Abdiaziz Hassan, copyright &copy; 2023.</p>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+</body>
+</html>
